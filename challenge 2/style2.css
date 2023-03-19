@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 200px;
+
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+
+  font-family: "Cinzel", serif;
+}
+
+p {
+  padding-top: 4px;
+}
+
+a {
+  border: red solid;
+  padding: 72px 0px 0px;
+  font-weight: 700;
+  font-family: "Cinzel", serif;
+}
