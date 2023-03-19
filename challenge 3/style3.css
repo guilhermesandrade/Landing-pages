@@ -1,4 +1,73 @@
-*{
+* {
+  margin: 0;
+  box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
 
-  margin:0;
+body {
+
+font-family: 'Spectral', serif;
+text-align: center;
+padding-top:275px;
+background:url(./assets/bg3.jpg) no-repeat center/cover;
+ height:100vh;
+}
+
+h1 {
+
+color:#EBF1FB;
+font-size: 64px;
+font-weight:400;
+line-height:120px;
+font-family: 'Beth Ellen', cursive;
+}
+
+h1 span {
+
+  color:#5EEAD4;
+}
+
+p {
+
+  padding-top: 4px;
+  color:#EBF1FB;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  
+  margin-bottom: 72px;
+}
+
+a {
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color:#EBF1FB;
+  padding:16px 32px;
+  border-radius:8px;
+
+}
+
+.btn-primary {
+
+  text-decoration: none;
+  color:black;
+  background-color: #5EEAD4;
+
+}
+
+a:hover {
+
+  text-decoration: none;
+  color:black;
+  background-color: #5EEAD4;
+  border-radius:8px;
+  transition:0.5s;
+}
+
+.btn-primary:hover {
+
+  font-size: 26px;
 }
