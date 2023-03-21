@@ -8,9 +8,7 @@
 /></p>
 
 <br/>
-<h2 align="center">💎 Tecnologias</h2>
-
----
+<h2 align="center">🔎 Tecnologias</h2>
 
 <p align="center">
 O projeto foi desenvolvido com as seguintes tecnologias:
@@ -23,9 +21,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 <br />
 
-<h2 align="center">💻 Projeto</h2>
-
----
+<h2 align="center">📝 Projeto</h2>
 
 <p align="center">
 As landing pages estão prontas mas, futuramente irei desenvolver uma forma de acessa-las em apenas um site, de forma fácil e interativa.<a href="#"> Em breve...</a>
