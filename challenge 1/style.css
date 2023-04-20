@@ -17,7 +17,8 @@ body {
 }
 
 #back{
-
+  
+  
   display:flex;
   margin:-80px 600px 80px;
   border-radius: 20px;
@@ -25,7 +26,8 @@ body {
 }
 
 #back a{
-  
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight:500;
   display: flex;
   justify-content: center;
   align-items: center;
