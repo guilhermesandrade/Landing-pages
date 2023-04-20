@@ -16,6 +16,40 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#back{
+
+  display:flex;
+  margin:-80px 600px 80px;
+  border-radius: 20px;
+  
+}
+
+#back a{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30px;
+  width: 60px;
+  padding:8px;
+
+  text-decoration: none;
+  background: none;
+  color:white;
+  background: #db2777;
+  border-radius: 20px;
+  border:none;
+  font-size: 15px;
+  opacity:1;
+  transition: 0.4s;
+}
+
+#back a:hover{
+
+filter:drop-shadow(0px 0px 8px #db2777);
+}
+
 h1 {
   font-size: 64px;
   line-height: 86px;
@@ -45,12 +79,13 @@ a {
   font-family: "Cinzel", serif;
 
   border-radius: 80px;
+  transition: 0.4s;
 }
 
 a:hover {
   color: white;
   background: #db2777;
-  transition: 0.6s;
+  
 }
 
 .btn-primary {
