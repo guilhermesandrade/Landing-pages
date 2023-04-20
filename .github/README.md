@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-<img alt="->Landing Pages" src="./.github/lp-readme.jpg"
+<img alt="->Landing Pages" src="../.github/lp-readme.jpg"
 /></p>
 
 <br/>
