@@ -1,103 +1,103 @@
 * {
   margin: 0;
-  box-sizing:border-box;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
+  font-family: "Spectral", serif;
+  text-align: center;
 
-font-family: 'Spectral', serif;
-text-align: center;
-padding-top:275px;
-background:url(./assets/bg3.jpg) no-repeat center/cover;
- height:100vh;
+  background: url(./assets/bg3.jpg) no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#back{
-
-  display:flex;
-  margin:-80px 500px 80px;
-  border-radius: 20px;
+#container {
   
-}
-
-#back a{
-  font-family: 'Hind Madurai', sans-serif;
-  font-weight:500;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+
+  flex-direction: column;
+}
+
+#back {
+  border-radius: 20px;
+}
+
+#back a {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
 
   height: 40px;
   width: 70px;
-  padding:8px;
+  padding: 8px;
 
   text-decoration: none;
   background: none;
-  color:black;
-  background: #5EEAD4;
+  color: black;
+  background: #5eead4;
   border-radius: 20px;
-  border:none;
+  border: none;
   font-size: 18px;
-  opacity:1;
+  opacity: 1;
   transition: 0.4s;
 }
 
-#back a:hover{
-
-filter:drop-shadow(0px 0px 8px #5EEAD4);
+#back a:hover {
+  filter: drop-shadow(0px 0px 8px #5eead4);
 }
 
 h1 {
-
-color:#EBF1FB;
-font-size: 64px;
-font-weight:400;
-line-height:120px;
-font-family: 'Beth Ellen', cursive;
+  margin-top:50px;
+  color: #ebf1fb;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 120px;
+  font-family: "Beth Ellen", cursive;
 }
 
 h1 span {
-
-  color:#5EEAD4;
+  color: #5eead4;
 }
 
 p {
-
   padding-top: 4px;
-  color:#EBF1FB;
+  color: #ebf1fb;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  
+
   margin-bottom: 72px;
 }
 
 a {
-
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
-  color:#EBF1FB;
-  padding:16px 32px;
-  border-radius:8px;
-transition:0.4s;
+  color: #ebf1fb;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: 0.4s;
 }
 
 .btn-primary {
-
   text-decoration: none;
-  color:black;
-  background-color: #5EEAD4;
-
+  color: black;
+  background-color: #5eead4;
 }
 
 a:hover {
-
   text-decoration: none;
-  color:black;
-  background-color: #5EEAD4;
-  border-radius:8px;
-  
+  color: black;
+  background-color: #5eead4;
+  border-radius: 8px;
 }
